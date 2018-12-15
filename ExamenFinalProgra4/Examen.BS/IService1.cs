@@ -19,6 +19,14 @@ namespace Examen.BS
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        
+
+        [OperationContract]
+       
+
+        [OperationContract]
+
         // TODO: Add your service operations here
     }
 
