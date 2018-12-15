@@ -64,7 +64,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BasesExamen.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Cliente.cs">
       <DependentUpon>BasesExamen.tt</DependentUpon>
     </Compile>

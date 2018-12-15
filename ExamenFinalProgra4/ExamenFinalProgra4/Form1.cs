@@ -16,5 +16,15 @@ namespace ExamenFinalProgra4
         {
             InitializeComponent();
         }
+
+        private void btnMuestraCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMuestraPelicula_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
