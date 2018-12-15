@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Examen.Model
 {
-   public partial class Cliente
+    public partial class Cliente
     {
         public int Edad
         {
-            get{
-                int fechaNacimiento=0;
+            get
+            {
+                int fechaNacimiento = 0;
 
                 fechaNacimiento = Convert.ToInt16(DateTime.Now.Year) - Convert.ToInt16(FechaNacimiento.Value.Year);
                 return fechaNacimiento;
@@ -23,7 +24,8 @@ namespace Examen.Model
 
         public int Afiliaciones
         {
-            get{
+            get
+            {
                 int tiempoAfiliacion;
 
                 tiempoAfiliacion = Convert.ToInt16(DateTime.Now.Year) - Convert.ToInt16(FechaAfiliacion.Value.Year);
@@ -56,7 +58,7 @@ namespace Examen.Model
 
                 edad = Convert.ToInt16(DateTime.Now.Year) - Convert.ToInt16(FechaNacimiento.Value.Year);
 
-                if(edad > 18)
+                if (edad > 18)
                 {
                     mayor = true;
                     return mayor;
@@ -64,7 +66,7 @@ namespace Examen.Model
                 else
                 {
                     mayor = false;
-                    return mayor; 
+                    return mayor;
                 }
 
             }
@@ -78,11 +80,12 @@ namespace Examen.Model
             {
                 string criterio;
 
-                if( Sexo == 1)
+                if (Sexo == 1)
                 {
                     criterio = "Hombre";
-                    return criterio; 
-                }else if(Sexo == 2)
+                    return criterio;
+                }
+                else if (Sexo == 2)
                 {
                     criterio = "Mujer";
                     return criterio;
@@ -90,11 +93,11 @@ namespace Examen.Model
                 else
                 {
                     criterio = "No indica o desconocido";
-                    return criterio; 
+                    return criterio;
 
-                }               
-               
-                
+                }
+
+
 
             }
 
@@ -105,5 +108,5 @@ namespace Examen.Model
     }
 
 
-    }
+}
 
