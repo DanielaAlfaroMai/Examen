@@ -74,7 +74,7 @@
     <Compile Include="Renta.cs">
       <DependentUpon>BasesExamen.tt</DependentUpon>
     </Compile>
-    <Compile Include="Tablas\Peliculas.cs" />
+    <Compile Include="Tablas\CopiaPelicula.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="BasesExamen.edmx">
